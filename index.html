@@ -424,10 +424,10 @@
                 </div>
                 <form action="" class="form__section-form">
                     <div class="form__section-block">
-                        <input type="text" class="form__section-input" placeholder="Ваше имя">
+                        <input type="text" class="form__section-input" placeholder="Ваше имя" required>
                     </div>
                     <div class="form__section-block">
-                        <input type="text" class="form__section-input" placeholder="Ваш телефон">
+                        <input type="text" class="form__section-input" placeholder="Ваш телефон" required>
                     </div>
                     <div class="form__section-block">
                         Нажимая кнопку “Записаться”, вы соглашаетесь с условиями<br>
@@ -604,13 +604,171 @@
         </div>
     </section>
 
-    <section class="page__section">
+    <section class="page__section page__section--dark portfolio" id="portfolio">
         <div class="container">
-            <button class="btn__design">
-                <span>Кнопка</span>
-            </button>
+            <div class="title">
+                <span class="title__numb">09</span>
+                Портфолио
+            </div>
+            <div class="portfolio__menu">
+                <ul class="portfolio__menu-list">
+                    <li class="portfolio__menu-item"><a href="#" class="portfolio__menu-link portfolio__menu-link--active">Все</a></li>
+                    <li class="portfolio__menu-item"><a href="#" class="portfolio__menu-link">Свадьба</a></li>
+                    <li class="portfolio__menu-item"><a href="#" class="portfolio__menu-link">Праздники</a></li>
+                    <li class="portfolio__menu-item"><a href="#" class="portfolio__menu-link">Портрет</a></li>
+                </ul>
+            </div>
+            <div class="portfolio__images">
+                <a href="img/dest/gallery01.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery01.jpg')"></a>
+                <a href="img/dest/gallery02.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery02.jpg')"></a>
+                <a href="img/dest/gallery03.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery03.jpg')"></a>
+                <a href="img/dest/gallery04.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery04.jpg')"></a>
+                <a href="img/dest/gallery05.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery05.jpg')"></a>
+                <a href="img/dest/gallery06.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery06.jpg')"></a>
+                <a href="img/dest/gallery07.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery07.jpg')"></a>
+                <a href="img/dest/gallery08.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery08.jpg')"></a>
+            </div>
+            <div class="portfolio__more">
+                <a href="#" class="portfolio__more-btn">Показать еще</a>
+            </div>
         </div>
     </section>
+
+    <section class="page__section page__section--red contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__inner">
+                <div class="contacts__list">
+                    <div class="title">
+                        <span class="title__numb">10</span>
+                        Контакты
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-icon contacts__item-icon--phone"></div>
+                        <div class="contacts__item-contact">
+                            <div class="contacts__item-info">Телефон</div>
+                            <a class="contacts__item-link" href="tel:89214500926">8 (921) 450-09-26</a>
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-icon contacts__item-icon--mail"></div>
+                        <div class="contacts__item-contact">
+                            <div class="contacts__item-info">Электронная почта</div>
+                            <a class="contacts__item-link" href="mailto:example@maill.ru">example@maill.ru</a>
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-icon contacts__item-icon--map-marker"></div>
+                        <div class="contacts__item-contact">
+                            <div class="contacts__item-info">Адрес</div>
+                            Россия, г. Санкт-Петербург, Невский пр-т., д. 120
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-icon contacts__item-icon--clock"></div>
+                        <div class="contacts__item-contact">
+                            <div class="contacts__item-info">Режим работы</div>
+                            Пн-Вс - 8:00 - 21:00
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="form__section-form contacts__form">
+                    <div class="contacts__form-title">
+                        Связаться с нами
+                    </div>
+                    <div class="form__section-block">
+                        <input type="text" class="form__section-input" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form__section-block">
+                        <input type="tel" class="form__section-input" placeholder="Ваш телефон" required>
+                    </div>
+                    <div class="form__section-block">
+                        <input type="mail" class="form__section-input" placeholder="Ваша почта" required>
+                    </div>
+                    <div class="form__section-block">
+                        <textarea class="form__section-input form__section-input--textarea" type="text" placeholder="Ваше сообщение"></textarea>
+                    </div>
+                    <div class="form__section-block">
+                        Нажимая кнопку “Отправить”, вы соглашаетесь с условиями<br>
+                        <a href="#" class="form__section-link">“Пользовательского соглашения”</a>
+                    </div>
+                    <div class="form__section-block">
+                        <button class="form__section-btn" type="submit">
+                            <span class="icon icon__arrow-right icon__arrow-right--white"></span>
+                            Отправить
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="page__section partners" id="partners">
+        <div class="container">
+            <div class="title">
+                <span class="title__numb">11</span>
+                Наши партнеры
+            </div>
+            <div class="partners__carousel">
+                <div class="partners__item">
+                    <div class="partners__item-logo">
+                        <img src="img/dest/partner01.png" alt="">
+                    </div>
+                </div>
+                <div class="partners__item">
+                    <div class="partners__item-logo">
+                        <img src="img/dest/partner02.png" alt="">
+                    </div>
+                </div>
+                <div class="partners__item">
+                    <div class="partners__item-logo">
+                        <img src="img/dest/partner03.png" alt="">
+                    </div>
+                </div>
+                <div class="partners__item">
+                    <div class="partners__item-logo">
+                        <img src="img/dest/partner04.png" alt="">
+                    </div>
+                </div>
+                <div class="partners__item">
+                    <div class="partners__item-logo">
+                        <img src="img/dest/partner05.png" alt="">
+                    </div>
+                </div>
+                <div class="partners__item">
+                    <div class="partners__item-logo">
+                        <img src="img/dest/partner03.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page__section page__section--dark footer" id="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <img src="img/dest/logo-footer.svg" alt="">
+            </div>
+        </div>
+        <div class="footer__social">
+            <a href="#" class="footer__social-item">1</a>
+            <a href="#" class="footer__social-item">2</a>
+            <a href="#" class="footer__social-item">3</a>
+            <a href="#" class="footer__social-item">4</a>
+            <a href="#" class="footer__social-item">5</a>
+            <a href="#" class="footer__social-item">6</a>
+            <a href="#" class="footer__social-item">7</a>
+            <a href="#" class="footer__social-item">8</a>
+            <a href="#" class="footer__social-item">9</a>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-inner">
+                    <div class="footer_required">Пользовательское соглашение</div>
+                    <div class="footer_copyright">&copy; Landing Page - 2020</div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/libs.min.js"></script>
     <script src="js/main.min.js"></script>
