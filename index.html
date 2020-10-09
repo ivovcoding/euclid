@@ -45,12 +45,15 @@
         </div>
     </header>
     <section class="page__section slider" id="slider">
+        <div class="slider__logo">
+            <img src="img/dest/logo-slider.svg" alt="">
+        </div>
         <div class="slider__main">
             <div class="slider__item" style="background-image: url('img/dest/slide01.png');">
                 <div class="slider__item-content">
                     <div class="slider__item-title">
                         Пожалуй, лучшее решение для вашего бизнеса
-                        <a class="slider__item-link" href="#about">Узнать больше</a>
+                        <a class="slider__item-link" href="#about"><i data-feather="chevrons-left"></i>Узнать больше</a>
                     </div>
                     <div class="slider__item-text">
                         Мы знаем, что Вам нужно для решения ваших задач. Просто предоставьте это нам, и мы обо всем позаботимся.
@@ -61,7 +64,7 @@
                 <div class="slider__item-content">
                     <div class="slider__item-title">
                         Пожалуй, лучшее решение для вашего бизнеса
-                        <a class="slider__item-link" href="#about">Узнать больше</a>
+                        <a class="slider__item-link" href="#about"><i data-feather="chevrons-left"></i>Узнать больше</a>
                     </div>
                     <div class="slider__item-text">
                         Мы знаем, что Вам нужно для решения ваших задач. Просто предоставьте это нам, и мы обо всем позаботимся.
@@ -72,7 +75,7 @@
                 <div class="slider__item-content">
                     <div class="slider__item-title">
                         Пожалуй, лучшее решение для вашего бизнеса
-                        <a class="slider__item-link" href="#about">Узнать больше</a>
+                        <a class="slider__item-link" href="#about"><i data-feather="chevrons-left"></i>Узнать больше</a>
                     </div>
                     <div class="slider__item-text">
                         Мы знаем, что Вам нужно для решения ваших задач. Просто предоставьте это нам, и мы обо всем позаботимся.
@@ -83,13 +86,16 @@
                 <div class="slider__item-content">
                     <div class="slider__item-title">
                         Пожалуй, лучшее решение для вашего бизнеса
-                        <a class="slider__item-link" href="#about">Узнать больше</a>
+                        <a class="slider__item-link" href="#about"><i data-feather="chevrons-left"></i>Узнать больше</a>
                     </div>
                     <div class="slider__item-text">
                         Мы знаем, что Вам нужно для решения ваших задач. Просто предоставьте это нам, и мы обо всем позаботимся.
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="slider__more-wrapper">
+            <a href="#advantages" class="slider__more-btn"><i data-feather="arrow-right"></i>Подробнее о нас</a>
         </div>
     </section>
     <section class="page__section advantages" id="advantages">
@@ -158,7 +164,7 @@
         <div class="about__achievements">
             <div class="container">
                 <div class="about__achievements-title">
-                    <img class="about__achievements-icon" src="img/dest/icon-achievements.svg" alt="">Наши достижения
+                    <i data-feather="award"></i>Наши достижения
                 </div>
                 <div class="achievements__list">
                     <div class="achievements__item">
@@ -235,6 +241,11 @@
                         <div class="services__item-title">Создание дизайна</div>
                         <div class="services__item-info">Расскажите здесь о главных преимуществах Вашего магазина.</div>
                         <div class="services__item-price">2 300<span class="icon icon__rub"></span></div>
+                        <div class="services__item-btn-wrapper">
+                            <a class="services__item-btn" href="#">
+                                <i data-feather="arrow-right"></i>Заказать услугу
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="services__item">
@@ -243,6 +254,11 @@
                         <div class="services__item-title">Настройка сервиса</div>
                         <div class="services__item-info">Расскажите здесь о главных преимуществах Вашего магазина.</div>
                         <div class="services__item-price">1 200<span class="icon icon__rub"></span></div>
+                        <div class="services__item-btn-wrapper">
+                            <a class="services__item-btn" href="#">
+                                <i data-feather="arrow-right"></i>Заказать услугу
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="services__item">
@@ -251,6 +267,11 @@
                         <div class="services__item-title">Написание отзывов</div>
                         <div class="services__item-info">Расскажите здесь о главных преимуществах Вашего магазина.</div>
                         <div class="services__item-price">3 420<span class="icon icon__rub"></span></div>
+                        <div class="services__item-btn-wrapper">
+                            <a class="services__item-btn" href="#">
+                                <i data-feather="arrow-right"></i>Заказать услугу
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="services__item">
@@ -259,6 +280,11 @@
                         <div class="services__item-title">Анализ рисков</div>
                         <div class="services__item-info">Расскажите здесь о главных преимуществах Вашего магазина.</div>
                         <div class="services__item-price">2 450<span class="icon icon__rub"></span></div>
+                        <div class="services__item-btn-wrapper">
+                            <a class="services__item-btn" href="#">
+                                <i data-feather="arrow-right"></i>Заказать услугу
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -358,8 +384,8 @@
                         <div class="products__item-price">2 300<span class="icon icon__rub"></span></div>
                     </div>
                     <a href="#" class="products__item-btn">
-                        <span class="icon icon__arrow-right"></span>
-                        Заказать услугу
+                        <i data-feather="arrow-right"></i>
+                        Заказать
                     </a>
                 </div>
                 <div class="products__item">
@@ -373,8 +399,8 @@
                         <div class="products__item-price">1 200<span class="icon icon__rub"></span></div>
                     </div>
                     <a href="#" class="products__item-btn">
-                        <span class="icon icon__arrow-right"></span>
-                        Заказать услугу
+                        <i data-feather="arrow-right"></i>
+                        Заказать
                     </a>
                 </div>
                 <div class="products__item">
@@ -388,8 +414,8 @@
                         <div class="products__item-price">3 420<span class="icon icon__rub"></span></div>
                     </div>
                     <a href="#" class="products__item-btn">
-                        <span class="icon icon__arrow-right"></span>
-                        Заказать услугу
+                        <i data-feather="arrow-right"></i>
+                        Заказать
                     </a>
                 </div>
                 <div class="products__item">
@@ -403,8 +429,8 @@
                         <div class="products__item-price">2 450<span class="icon icon__rub"></span></div>
                     </div>
                     <a href="#" class="products__item-btn">
-                        <span class="icon icon__arrow-right"></span>
-                        Заказать услугу
+                        <i data-feather="arrow-right"></i>
+                        Заказать
                     </a>
                 </div>
             </div>
@@ -424,10 +450,12 @@
                 </div>
                 <form action="" class="form__section-form">
                     <div class="form__section-block">
-                        <input type="text" class="form__section-input" placeholder="Ваше имя" required>
+                        <input class="form__section-input" type="text" id="name" placeholder="Ваше имя" required>
+                        <label class="form__section-label" for="name">Ваше имя</label>
                     </div>
                     <div class="form__section-block">
-                        <input type="text" class="form__section-input" placeholder="Ваш телефон" required>
+                        <input class="form__section-input" type="tel" id="phone" placeholder="Ваш телефон" required>
+                        <label class="form__section-label" for="phone">Ваш телефон</label>
                     </div>
                     <div class="form__section-block">
                         Нажимая кнопку “Записаться”, вы соглашаетесь с условиями<br>
@@ -435,7 +463,7 @@
                     </div>
                     <div class="form__section-block">
                         <button class="form__section-btn" type="submit">
-                            <span class="icon icon__arrow-right icon__arrow-right--white"></span>
+                            <i data-feather="arrow-right"></i>
                             Записаться
                         </button>
                     </div>
@@ -449,75 +477,79 @@
                 <span class="title__numb">06</span>
                 Отзывы
             </div>
-            <div class="reviews__carousel">
-                <div class="reviews__carousel-item">
-                    <div class="reviews__carousel-content">
-                        <div class="reviews__carousel-img" style="background-image: url('img/dest/review01.jpg');"></div>
-                        <div class="reviews__carousel-text">
-                            «Разнообразный и богатый опыт начало повседневной работы по формированию позиции влечет за собой процесс внедрения и
-                            модернизации позиций, занимаемых участниками в отношении поставленных задач»
-                        </div>
-                        <div class="reviews__carousel-autor">
-                            <div class="reviews__carousel-name">
-                                Кирилл Петровский
+            <div class="reviews__carousel-wrapper">
+                <div class="reviews__carousel">
+                    <div class="reviews__carousel-item">
+                        <div class="reviews__carousel-content">
+                            <div class="reviews__carousel-img" style="background-image: url('img/dest/review01.jpg');"></div>
+                            <div class="reviews__carousel-text">
+                                «Разнообразный и богатый опыт начало повседневной работы по формированию позиции влечет за собой процесс внедрения и
+                                модернизации позиций, занимаемых участниками в отношении поставленных задач»
                             </div>
-                            <div class="reviews__carousel-company">
-                                Генеральный директор ООО «Рога и копыта»
+                            <div class="reviews__carousel-autor">
+                                <div class="reviews__carousel-name">
+                                    Кирилл Петровский
+                                </div>
+                                <div class="reviews__carousel-company">
+                                    Генеральный директор ООО «Рога и копыта»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__carousel-item">
+                        <div class="reviews__carousel-content">
+                            <div class="reviews__carousel-img" style="background-image: url('img/dest/review02.jpg');"></div>
+                            <div class="reviews__carousel-text">
+                                «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации направлений
+                                прогрессивного развития»
+                            </div>
+                            <div class="reviews__carousel-autor">
+                                <div class="reviews__carousel-name">
+                                    Сергей Константинопольский
+                                </div>
+                                <div class="reviews__carousel-company">
+                                    CEO «Лицокнига»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__carousel-item">
+                        <div class="reviews__carousel-content">
+                            <div class="reviews__carousel-img" style="background-image: url('img/dest/review01.jpg');"></div>
+                            <div class="reviews__carousel-text">
+                                «Разнообразный и богатый опыт начало повседневной работы по формированию позиции влечет за собой процесс внедрения и
+                                модернизации позиций, занимаемых участниками в отношении поставленных задач»
+                            </div>
+                            <div class="reviews__carousel-autor">
+                                <div class="reviews__carousel-name">
+                                    Кирилл Петровский
+                                </div>
+                                <div class="reviews__carousel-company">
+                                    Генеральный директор ООО «Рога и копыта»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__carousel-item">
+                        <div class="reviews__carousel-content">
+                            <div class="reviews__carousel-img" style="background-image: url('img/dest/review02.jpg');"></div>
+                            <div class="reviews__carousel-text">
+                                «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации направлений
+                                прогрессивного развития»
+                            </div>
+                            <div class="reviews__carousel-autor">
+                                <div class="reviews__carousel-name">
+                                    Сергей Константинопольский
+                                </div>
+                                <div class="reviews__carousel-company">
+                                    CEO «Лицокнига»
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="reviews__carousel-item">
-                    <div class="reviews__carousel-content">
-                        <div class="reviews__carousel-img" style="background-image: url('img/dest/review02.jpg');"></div>
-                        <div class="reviews__carousel-text">
-                            «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации направлений
-                            прогрессивного развития»
-                        </div>
-                        <div class="reviews__carousel-autor">
-                            <div class="reviews__carousel-name">
-                                Сергей Константинопольский
-                            </div>
-                            <div class="reviews__carousel-company">
-                                CEO «Лицокнига»
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__carousel-item">
-                    <div class="reviews__carousel-content">
-                        <div class="reviews__carousel-img" style="background-image: url('img/dest/review01.jpg');"></div>
-                        <div class="reviews__carousel-text">
-                            «Разнообразный и богатый опыт начало повседневной работы по формированию позиции влечет за собой процесс внедрения и
-                            модернизации позиций, занимаемых участниками в отношении поставленных задач»
-                        </div>
-                        <div class="reviews__carousel-autor">
-                            <div class="reviews__carousel-name">
-                                Кирилл Петровский
-                            </div>
-                            <div class="reviews__carousel-company">
-                                Генеральный директор ООО «Рога и копыта»
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__carousel-item">
-                    <div class="reviews__carousel-content">
-                        <div class="reviews__carousel-img" style="background-image: url('img/dest/review02.jpg');"></div>
-                        <div class="reviews__carousel-text">
-                            «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации направлений
-                            прогрессивного развития»
-                        </div>
-                        <div class="reviews__carousel-autor">
-                            <div class="reviews__carousel-name">
-                                Сергей Константинопольский
-                            </div>
-                            <div class="reviews__carousel-company">
-                                CEO «Лицокнига»
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="carousel__btn carousel__btn-left reviews__btn-left"><i data-feather="chevron-left"></i></div>
+                <div class="carousel__btn carousel__btn-right reviews__btn-right"><i data-feather="chevron-right"></i></div>
             </div>
         </div>
     </section>
@@ -539,7 +571,7 @@
             </div>
             <div class="events__timer" id="timer"></div>
             <a class="events__link">
-                <span class="icon icon__arrow-right icon__arrow-right--white"></span>
+                <i data-feather="arrow-right"></i>
                 Заказать звонок
             </a>
         </div>
@@ -627,9 +659,17 @@
                 <a href="img/dest/gallery06.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery06.jpg')"></a>
                 <a href="img/dest/gallery07.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery07.jpg')"></a>
                 <a href="img/dest/gallery08.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery08.jpg')"></a>
+                <a href="img/dest/gallery01.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery01.jpg')"></a>
+                <a href="img/dest/gallery02.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery02.jpg')"></a>
+                <a href="img/dest/gallery03.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery03.jpg')"></a>
+                <a href="img/dest/gallery04.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery04.jpg')"></a>
+                <a href="img/dest/gallery05.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery05.jpg')"></a>
+                <a href="img/dest/gallery06.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery06.jpg')"></a>
+                <a href="img/dest/gallery07.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery07.jpg')"></a>
+                <a href="img/dest/gallery08.jpg" class="portfolio__images-item zoom" style="background-image: url('img/dest/gallery08.jpg')"></a>
             </div>
             <div class="portfolio__more">
-                <a href="#" class="portfolio__more-btn">Показать еще</a>
+                <button class="portfolio__more-btn">Показать еще</button>
             </div>
         </div>
     </section>
@@ -643,28 +683,36 @@
                         Контакты
                     </div>
                     <div class="contacts__item">
-                        <div class="contacts__item-icon contacts__item-icon--phone"></div>
+                        <div class="contacts__item-icon">
+                            <i data-feather="phone-call"></i>
+                        </div>
                         <div class="contacts__item-contact">
                             <div class="contacts__item-info">Телефон</div>
                             <a class="contacts__item-link" href="tel:89214500926">8 (921) 450-09-26</a>
                         </div>
                     </div>
                     <div class="contacts__item">
-                        <div class="contacts__item-icon contacts__item-icon--mail"></div>
+                        <div class="contacts__item-icon">
+                            <i data-feather="mail"></i>
+                        </div>
                         <div class="contacts__item-contact">
                             <div class="contacts__item-info">Электронная почта</div>
                             <a class="contacts__item-link" href="mailto:example@maill.ru">example@maill.ru</a>
                         </div>
                     </div>
                     <div class="contacts__item">
-                        <div class="contacts__item-icon contacts__item-icon--map-marker"></div>
+                        <div class="contacts__item-icon">
+                            <i data-feather="map-pin"></i>
+                        </div>
                         <div class="contacts__item-contact">
                             <div class="contacts__item-info">Адрес</div>
                             Россия, г. Санкт-Петербург, Невский пр-т., д. 120
                         </div>
                     </div>
                     <div class="contacts__item">
-                        <div class="contacts__item-icon contacts__item-icon--clock"></div>
+                        <div class="contacts__item-icon">
+                            <i data-feather="clock"></i>
+                        </div>
                         <div class="contacts__item-contact">
                             <div class="contacts__item-info">Режим работы</div>
                             Пн-Вс - 8:00 - 21:00
@@ -676,16 +724,20 @@
                         Связаться с нами
                     </div>
                     <div class="form__section-block">
-                        <input type="text" class="form__section-input" placeholder="Ваше имя" required>
+                        <input class="form__section-input" type="text" id="name" placeholder="Ваше имя" required>
+                        <label class="form__section-label" for="name">Ваше имя</label>
                     </div>
                     <div class="form__section-block">
-                        <input type="tel" class="form__section-input" placeholder="Ваш телефон" required>
+                        <input class="form__section-input" type="tel" id="phone" placeholder="Ваш телефон" required>
+                        <label class="form__section-label" for="phone">Ваш телефон</label>
                     </div>
                     <div class="form__section-block">
-                        <input type="mail" class="form__section-input" placeholder="Ваша почта" required>
+                        <input class="form__section-input" type="mail" id="mail" placeholder="Ваша почта" required>
+                        <label class="form__section-label" for="mail">Ваша почта</label>
                     </div>
                     <div class="form__section-block">
-                        <textarea class="form__section-input form__section-input--textarea" type="text" placeholder="Ваше сообщение"></textarea>
+                        <textarea class="form__section-input form__section-input--textarea" type="text" id="text" placeholder="Ваше сообщение"></textarea>
+                        <label class="form__section-label" for="text">Ваше сообщение</label>
                     </div>
                     <div class="form__section-block">
                         Нажимая кнопку “Отправить”, вы соглашаетесь с условиями<br>
@@ -693,7 +745,7 @@
                     </div>
                     <div class="form__section-block">
                         <button class="form__section-btn" type="submit">
-                            <span class="icon icon__arrow-right icon__arrow-right--white"></span>
+                            <i data-feather="arrow-right"></i>
                             Отправить
                         </button>
                     </div>
@@ -708,37 +760,41 @@
                 <span class="title__numb">11</span>
                 Наши партнеры
             </div>
-            <div class="partners__carousel">
-                <div class="partners__item">
-                    <div class="partners__item-logo">
-                        <img src="img/dest/partner01.png" alt="">
+            <div class="partners__carousel-wrapper">
+                <div class="partners__carousel">
+                    <div class="partners__item">
+                        <div class="partners__item-logo">
+                            <img src="img/dest/partner01.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners__item">
+                        <div class="partners__item-logo">
+                            <img src="img/dest/partner02.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners__item">
+                        <div class="partners__item-logo">
+                            <img src="img/dest/partner03.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners__item">
+                        <div class="partners__item-logo">
+                            <img src="img/dest/partner04.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners__item">
+                        <div class="partners__item-logo">
+                            <img src="img/dest/partner05.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partners__item">
+                        <div class="partners__item-logo">
+                            <img src="img/dest/partner03.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="partners__item">
-                    <div class="partners__item-logo">
-                        <img src="img/dest/partner02.png" alt="">
-                    </div>
-                </div>
-                <div class="partners__item">
-                    <div class="partners__item-logo">
-                        <img src="img/dest/partner03.png" alt="">
-                    </div>
-                </div>
-                <div class="partners__item">
-                    <div class="partners__item-logo">
-                        <img src="img/dest/partner04.png" alt="">
-                    </div>
-                </div>
-                <div class="partners__item">
-                    <div class="partners__item-logo">
-                        <img src="img/dest/partner05.png" alt="">
-                    </div>
-                </div>
-                <div class="partners__item">
-                    <div class="partners__item-logo">
-                        <img src="img/dest/partner03.png" alt="">
-                    </div>
-                </div>
+                <div class="carousel__btn carousel__btn-left partners__btn-left"><i data-feather="chevron-left"></i></div>
+                <div class="carousel__btn carousel__btn-right partners__btn-right"><i data-feather="chevron-right"></i></div>
             </div>
         </div>
     </section>
@@ -750,21 +806,16 @@
             </div>
         </div>
         <div class="footer__social">
-            <a href="#" class="footer__social-item">1</a>
-            <a href="#" class="footer__social-item">2</a>
-            <a href="#" class="footer__social-item">3</a>
-            <a href="#" class="footer__social-item">4</a>
-            <a href="#" class="footer__social-item">5</a>
-            <a href="#" class="footer__social-item">6</a>
-            <a href="#" class="footer__social-item">7</a>
-            <a href="#" class="footer__social-item">8</a>
-            <a href="#" class="footer__social-item">9</a>
+            <a href="#" class="footer__social-item" target="_blank"><i data-feather="facebook"></i></a>
+            <a href="#" class="footer__social-item" target="_blank"><i data-feather="twitter"></i></a>
+            <a href="#" class="footer__social-item" target="_blank"><i data-feather="youtube"></i></a>
+            <a href="#" class="footer__social-item" target="_blank"><i data-feather="instagram"></i></a>
         </div>
         <div class="footer__bottom">
             <div class="container">
                 <div class="footer__bottom-inner">
-                    <div class="footer_required">Пользовательское соглашение</div>
-                    <div class="footer_copyright">&copy; Landing Page - 2020</div>
+                    <div class="footer__required"><i data-feather="eye"></i><a class="footer__required-link" href="#" target="_blank">Пользовательское соглашение</a></div>
+                    <div class="footer__copyright">&copy; Landing Page - 2020</div>
                 </div>
             </div>
         </div>
